@@ -26,89 +26,91 @@ import sys
 @Riz19.on(events.NewMessage(pattern=r"\.restart"))
 @Riz20.on(events.NewMessage(pattern=r"\.restart"))
 async def restart(e):
-    if e.sender_id in SUDO_USERS:
-        text = "**Restarting Your RiZoeL X Spam**.. Please Wait Until It Starts Again"
-        await e.reply(text, parse_mode=None, link_preview=None)
-        try:
-            await Riz.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz2.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz3.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz4.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz5.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz6.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz7.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz8.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz9.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz10.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz11.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz12.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz13.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz14.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz15.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz16.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz17.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz18.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz19.disconnect()
-        except Exception:
-            pass
-        try:
-            await Riz20.disconnect()
-        except Exception:
-            pass
+    if e.sender_id not in SUDO_USERS:
+        return
 
-        os.execl(sys.executable, sys.executable, *sys.argv)
-        quit()
+    text = "**Restarting Your RiZoeL X Spam**.. Please Wait Until It Starts Again"
+    await e.reply(text, parse_mode=None, link_preview=None)
+    try:
+        await Riz.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz2.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz3.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz4.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz5.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz6.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz7.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz8.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz9.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz10.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz11.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz12.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz13.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz14.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz15.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz16.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz17.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz18.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz19.disconnect()
+    except Exception:
+        pass
+    try:
+        await Riz20.disconnect()
+    except Exception:
+        pass
+
+    os.execl(sys.executable, sys.executable, *sys.argv)
+    quit()

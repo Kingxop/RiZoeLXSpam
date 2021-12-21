@@ -75,7 +75,7 @@ async def RiZoeLX():
     global Riz18
     global Riz19
     global Riz20
-    
+
     if STRING:
         session_name = str(STRING)
         print("String 1 Found")
@@ -91,7 +91,6 @@ async def RiZoeLX():
         except Exception as e:
             Riz = "STRING"
             print(e)
-            pass
     else:
         print("Session 1 not Found")
         session_name = "rizoelxspam"
@@ -100,7 +99,7 @@ async def RiZoeLX():
             await Riz.start()
         except Exception as e:
             pass
-   
+
     if STRING2:
         session_name = str(STRING2)
         print("String 2 Found")
@@ -118,7 +117,6 @@ async def RiZoeLX():
             pass
     else:
         print("Session 2 not Found")
-        pass
         session_name = "rizoelxspam"
         Riz2 = TelegramClient(session_name, API_ID, API_HASH)
         try:
@@ -143,7 +141,6 @@ async def RiZoeLX():
             pass
     else:
         print("Session 3 not Found")
-        pass
         session_name = "rizoelxspam"
         Riz3 = TelegramClient(session_name, API_ID, API_HASH)
         try:
@@ -193,14 +190,13 @@ async def RiZoeLX():
             pass
     else:
         print("Session 5 not Found")
-        pass
         session_name = "rizoelxspam"
         Riz5 = TelegramClient(session_name, API_ID, API_HASH)
         try:
             await Riz5.start()
         except Exception as e:
             pass
-                  
+
     if STRING6:
         session_name = str(STRING6)
         print("String 6 Found")
@@ -240,7 +236,6 @@ async def RiZoeLX():
             SUDO_USERS.append(botid)
         except Exception as e:
             print(e)
-            pass
     else:
         print("Session 7 not Found")
         pass
@@ -250,8 +245,8 @@ async def RiZoeLX():
             await Riz7.start()
         except Exception as e:
             pass    
-        
-    
+
+
     if STRING8:
         session_name = str(STRING8)
         print("String 8 Found")
@@ -276,7 +271,7 @@ async def RiZoeLX():
             await Riz8.start()
         except Exception as e:
             pass   
-        
+
     if STRING9:
         session_name = str(STRING9)
         print("String 9 Found")
@@ -291,18 +286,16 @@ async def RiZoeLX():
             SUDO_USERS.append(botid)
         except Exception as e:
             print(e)
-            pass
     else:
         print("Session 9 not Found")
-        pass
         session_name = "rizoelxspam"
         Riz9 = TelegramClient(session_name, API_ID, API_HASH)
         try:
             await Riz9.start()
         except Exception as e:
             pass   
-    
-  
+
+
     if STRING10:
         session_name = str(STRING10)
         print("String 10 Found")
@@ -320,15 +313,14 @@ async def RiZoeLX():
             pass
     else:
         print("Session 10 not Found")
-        pass
         session_name = "rizoelxspam"
         Riz10 = TelegramClient(session_name, API_ID, API_HASH)
         try:
             await Riz10.start()
         except Exception as e:
             pass 
-        
-    
+
+
     if STRING11:
         session_name = str(STRING11)
         print("String 11 Found")
@@ -343,7 +335,6 @@ async def RiZoeLX():
             SUDO_USERS.append(botid)
         except Exception as e:
             print(e)
-            pass
     else:
         print("Session 11 not Found")
         pass
@@ -353,8 +344,8 @@ async def RiZoeLX():
             await Riz11.start()
         except Exception as e:
             pass
-        
-    
+
+
     if STRING12:
         session_name = str(STRING12)
         print("String 12 Found")
@@ -372,15 +363,14 @@ async def RiZoeLX():
             pass
     else:
         print("Session 12 not Found")
-        pass
         session_name = "rizoelxspam"
         Riz12 = TelegramClient(session_name, API_ID, API_HASH)
         try:
             await Riz12.start()
         except Exception as e:
             pass   
-    
-  
+
+
     if STRING13:
         session_name = str(STRING13)
         print("String 13  Found")
@@ -395,7 +385,6 @@ async def RiZoeLX():
             SUDO_USERS.append(botid)
         except Exception as e:
             print(e)
-            pass
     else:
         print("Session 13 not Found")
         pass
@@ -405,8 +394,8 @@ async def RiZoeLX():
             await Riz13.start()
         except Exception as e:
             pass 
-        
-    
+
+
     if STRING14:
         session_name = str(STRING14)
         print("String 14 Found")
@@ -431,8 +420,8 @@ async def RiZoeLX():
             await Riz14.start()
         except Exception as e:
             pass
-        
-    
+
+
     if STRING15:
         session_name = str(STRING15)
         print("String 15 Found")
@@ -450,7 +439,6 @@ async def RiZoeLX():
             pass
     else:
         print("Session 15 not Found")
-        pass
         session_name = "rizoelxspam"
         Riz15 = TelegramClient(session_name, API_ID, API_HASH)
         try:
@@ -482,7 +470,7 @@ async def RiZoeLX():
             await Riz16.start()
         except Exception as e:
             pass
-   
+
     if STRING17:
         session_name = str(STRING17)
         print("String 17 Found")
@@ -497,7 +485,6 @@ async def RiZoeLX():
             SUDO_USERS.append(botid)
         except Exception as e:
             print(e)
-            pass
     else:
         print("Session 17 not Found")
         session_name = "rizoelxspam"
@@ -506,7 +493,7 @@ async def RiZoeLX():
             await Riz17.start()
         except Exception as e:
             pass
-   
+
     if STRING18:
         session_name = str(STRING18)
         print("String 18 Found")
@@ -530,7 +517,7 @@ async def RiZoeLX():
             await Riz18.start()
         except Exception as e:
             pass
-   
+
     if STRING19:
         session_name = str(STRING19)
         print("String 19 Found")
@@ -545,7 +532,6 @@ async def RiZoeLX():
             SUDO_USERS.append(botid)
         except Exception as e:
             print(e)
-            pass
     else:
         print("Session 19 not Found")
         session_name = "rizoelxspam"
@@ -554,7 +540,7 @@ async def RiZoeLX():
             await Riz.start()
         except Exception as e:
             pass
-   
+
     if STRING20:
         session_name = str(STRING20)
         print("String 20 Found")
@@ -569,7 +555,6 @@ async def RiZoeLX():
             SUDO_USERS.append(botid)
         except Exception as e:
             print(e)
-            pass
     else:
         print("Session 20 not Found")
         session_name = "rizoelxspam"

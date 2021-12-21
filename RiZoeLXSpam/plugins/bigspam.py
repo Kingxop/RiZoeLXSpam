@@ -43,35 +43,36 @@ from .. import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, Riz1
 @Riz19.on(events.NewMessage(pattern=r"\.bigspam"))
 @Riz20.on(events.NewMessage(pattern=r"\.bigspam"))
 async def spam(e):
+    if e.sender_id not in SUDO_USERS:
+        return
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗴𝗦𝗽𝗮𝗺\n\nCommand:\n\n.bigspam <count> <message to spam>\n\n.bigspam <count> <reply to a message>\n\nCount must be a integer."
-    if e.sender_id in SUDO_USERS:
-        if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
-            return await e.reply(usage, parse_mode=None, link_preview=None )
-        rizoel = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
-        smex = await e.get_reply_message()
-        if len(rizoel) == 2:
-            message = str(rizoel[1])
-            counter = int(rizoel[0])
-            for _ in range(counter):
-                async with e.client.action(e.chat_id, "typing"):
-                    if e.reply_to_msg_id:
-                        await smex.reply(message)
-                    else:
-                        await e.client.send_message(e.chat_id, message)
-                    await asyncio.sleep(0.3)
-        elif e.reply_to_msg_id and smex.media:  
-            counter = int(rizoel[0])
-            for _ in range(counter):
-                async with e.client.action(e.chat_id, "document"):
-                    smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
-                    await gifspam(e, smex) 
-                await asyncio.sleep(0.3)  
-        elif e.reply_to_msg_id and smex.text:
-            message = smex.text
-            counter = int(rizoel[0])
-            for _ in range(counter):
-                async with e.client.action(e.chat_id, "typing"):
+    if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
+        return await e.reply(usage, parse_mode=None, link_preview=None )
+    rizoel = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+    smex = await e.get_reply_message()
+    if len(rizoel) == 2:
+        message = str(rizoel[1])
+        counter = int(rizoel[0])
+        for _ in range(counter):
+            async with e.client.action(e.chat_id, "typing"):
+                if e.reply_to_msg_id:
+                    await smex.reply(message)
+                else:
                     await e.client.send_message(e.chat_id, message)
-                    await asyncio.sleep(0.3)
-        else:
-            await e.reply(usage, parse_mode=None, link_preview=None )
+                await asyncio.sleep(0.3)
+    elif e.reply_to_msg_id and smex.media:  
+        counter = int(rizoel[0])
+        for _ in range(counter):
+            async with e.client.action(e.chat_id, "document"):
+                smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
+                await gifspam(e, smex) 
+            await asyncio.sleep(0.3)  
+    elif e.reply_to_msg_id and smex.text:
+        message = smex.text
+        counter = int(rizoel[0])
+        for _ in range(counter):
+            async with e.client.action(e.chat_id, "typing"):
+                await e.client.send_message(e.chat_id, message)
+                await asyncio.sleep(0.3)
+    else:
+        await e.reply(usage, parse_mode=None, link_preview=None )
