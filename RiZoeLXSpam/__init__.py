@@ -1,3 +1,5 @@
+# lund naa duu RiZoeL koo orr credit lega. 😂😂
+
 import os
 import sys
 import random
