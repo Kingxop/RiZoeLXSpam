@@ -13,7 +13,7 @@
 - [x] ☯︎ ғᴀsᴛ ᴀɴᴅ sᴛᴀʙʟᴇ ☯︎
 - [x] Deploy upto 20 UserBots in One time 🔥
 
-### Generate string session from below:
+### Gand dedo telegram me dm @AUTOFIREONTOP
 
 - [x] No Requirement of API ID and API HASH
 
